@@ -1,0 +1,83 @@
+body {
+	background-image: url('./images/IMG_5243.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 1260px;
+	max-height: 780px;
+	padding: 0;
+}
+
+#header {
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	opacity: 0.3;
+	
+	
+}
+
+ul {
+	position: relative;
+	text-decoration: none; 
+	color: white;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-family: Gill Sans;
+	padding: 20px;
+	color: #00000;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+h1 {
+	font-family: Gill Sans;
+	color: #ffffff;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 48px;
+	margin-top: 30px;
+	position: relative;
+	letter-spacing: 7px;
+}
+
+#tag {
+	color: #ffffff;
+	font-family: Gill Sans;
+	text-align: center;
+	font-weight: lighter;
+	padding: 0;
+	position: relative;
+	font-size: 20px;
+	font-weight: bolder;
+	letter-spacing: 10px;
+}
+
+#footer {
+	position: absolute;
+	background-color: #ffffff;
+	opacity: 0.3;
+	text-align: center;
+	height: 60px;
+	width: 1260px;
+	bottom: 0;
+	display: inline-block;
+}
+
+#footer p {
+	color: #ffffff;
+}
+
+#footer p .social {
+	color: #ffffff; 
+}
