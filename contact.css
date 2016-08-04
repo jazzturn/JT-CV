@@ -1,0 +1,71 @@
+body {
+	background-color: #ffffff;
+}
+
+#header {
+	position: absolute;
+	display: inline-block;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	position: relative;
+	display: block;
+	text-decoration: none; 
+	color: #000000;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	font-family: Gill Sans;
+	padding: 20px;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+#footer {
+	position: fixed;
+	background-color: #f0f0f0;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	bottom: 0%;
+	display: inline-block;
+	opacity: 0.6;
+}
+
+#footer p a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#footer p a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.social {
+	text-color: #000000;
+	position: absolute;
+	left: 50%
+}
+
+.phone {
+	position: absolute;
+	left: 75%
+}
+
+.econtact {
+	position: absolute;
+	left: 25%
+}
