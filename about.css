@@ -1,6 +1,6 @@
-html {
+/*html {
 	overflow: hidden;
-}
+}*/	
 
 body {
 	background-color: #ffffff;
@@ -8,13 +8,10 @@ body {
 
 #header {
 	position: absolute;
-	display: block;
+	display: inline-block;
 	height: 40px;
 	width: 100%;
 	text-align: center;
-	background-color: #ffffff;
-	opacity: 0.6;
-	top: 30px;
 }
 
 ul {
@@ -23,7 +20,6 @@ ul {
 	text-decoration: none; 
 	color: #000000;
 	text-align: center;
-	width: 100%;
 }
 
 li {
@@ -49,8 +45,9 @@ h1 {
 	font-size: 48px;
 	position: absolute;
 	letter-spacing: 20px;
-	top: 15%;
-	left: 30%;
+	top: 10%;
+	right: 25%;
+	left: 25%;
 }
 
 #tag {
@@ -63,8 +60,31 @@ h1 {
 	font-size: 20px;
 	font-weight: bolder;
 	letter-spacing: 7px;
-	top: 25%;
-	left: 35%;
+	top: 23%;
+	right: 25%;
+	left: 25%;
+}
+
+.content {
+	left: 18px;
+	right: 18px;
+	max-height: 100%;
+}
+
+.maincontent {
+	text-align: center;
+	position: absolute;
+	left: 18%;
+	right: 18%;
+	top: 30%;
+}
+
+.skills {
+	text-align: center;
+	position: absolute;
+	left: 18%;
+	right: 18%;
+	top: 90%;
 }
 
 #footer {
@@ -73,7 +93,7 @@ h1 {
 	text-align: center;
 	height: 40px;
 	width: 100%;
-	bottom: 0px;
+	bottom: 0%;
 	display: inline-block;
 	opacity: 0.6;
 }
