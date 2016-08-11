@@ -3,7 +3,6 @@ html {
 	background-size: 800px 800px;
 	background-repeat: no-repeat;
 	background-position: center right;
-	overflow: hidden;
 }
 
 body {
@@ -83,6 +82,7 @@ a.links {
 #tagtwo {
 	color: #000000;
 	font-family: Gills Sans;
+	letter-spacing: 2.5px;
 	/*position: absolute;
 	margin-left: 2%;
 	margin-top: 9%;*/
@@ -90,7 +90,7 @@ a.links {
 
 .footer {
 	position: absolute;
-	bottom: 0;
+	margin-bottom: 0;
 	left: 30%;
 }
 
