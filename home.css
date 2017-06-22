@@ -11,12 +11,6 @@ body {
 	font-family: Gills Sans, sans-serif;
 	width: 100%;
 	text-align: center;
-	background-image: url('https://cloud.githubusercontent.com/assets/5511212/20615220/f11252b8-b29c-11e6-8ef3-cddaaabee64a.JPG');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center right;
-	height: 100%;
-	overflow: wrap;
 }
 
 h1 {
