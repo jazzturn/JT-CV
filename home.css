@@ -1,4 +1,4 @@
-html {
+/*html {
 	background-image: url('https://cloud.githubusercontent.com/assets/5511212/17387787/5c7d74cc-59bc-11e6-845b-8fd7f705e46a.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -6,11 +6,17 @@ html {
 	height: 100%;
 	overflow: wrap;
 }
-
+*/
 body {
 	font-family: Gills Sans, sans-serif;
 	width: 100%;
 	text-align: center;
+	background-image: url('https://cloud.githubusercontent.com/assets/5511212/17387787/5c7d74cc-59bc-11e6-845b-8fd7f705e46a.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center right;
+	height: 100%;
+	overflow: wrap;
 }
 
 h1 {
