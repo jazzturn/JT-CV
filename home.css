@@ -1,6 +1,7 @@
 html {
   overflow: wrap;
   background-image: url('https://cloud.githubusercontent.com/assets/5511212/17387787/5c7d74cc-59bc-11e6-845b-8fd7f705e46a.JPG');
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center right;
